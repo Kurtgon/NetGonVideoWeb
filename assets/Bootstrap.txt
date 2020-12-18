@@ -1,0 +1,107 @@
+Carrusel:
+https://programacion.net/articulo/como_crear_un_carrusel_de_imagenes_con_bootstrap_1807
+
+https://www.youtube.com/watch?v=LVQtOmMR5As
+
+https://ajgallego.gitbook.io/bootstrap-4/componentes-responsive/navegacion
+
+Para consultar video de navegación https://www.youtube.com/watch?v=yEuMsn2e-lU
+
+etiquetas importantes para el navegador con boostrap
+<nav class="navbar navbar-expand-lg navbar-toggleable-sm navbar-dark bg-dark">
+dentro de <nav>
+EL BOTON MENU HAMBURGUESA
+ <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<a class ="navbar-brand" importante ponemos el link de la pagina pringipal>
+PARA LA IMAGEN DEL LOGO (si es .svg hay que poner la altura y la anchura sino no es necesario)
+<img src="logo.svg" width="30" height="30" class= "d-inline-block align-top" alt="logo de la empresa">Nombre de la empresa
+</a>
+ETIQUETA PARA LOS ELEMENTOS DEL MENU
+para ocultar el menu
+<div class="collapse navbar-collapse"id="navbarSupportedContent">
+	<div class="navbar-nav" mr-auto((ponemos el margen a la derecha automaticamente))>
+		<a class="nav-item nav-link active" href="#"> Inicio</a>
+		<a class="nav-item nav-link" href="#">Tienda</a>
+	</div>
+	<div> <a href="#">Iniciar Sesión</div>Para crear otros iconos dentro del menu sociales
+</div>
+
+https://getbootstrap.com/docs/5.0/customize/color/
+
+
+<body>
+
+Menu de navegación
+ <!-- Contenedor interno para el menu de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+    <img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    NetGonVideo
+    </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+          aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+​
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Navegación
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Inicio de Sesión</a>
+          <a class="dropdown-item" href="#">Inicio</a>
+          <a class="dropdown-item" href="#">Tienda</a>
+          <a class="dropdown-item" href="#">Peliculas</a>
+          <a class="dropdown-item" href="#">Series</a>
+          <a class="dropdown-item" href="#">Somos</a>
+          <div class="dropdown-divider"></div>
+      </li>
+      
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+</body>
+
+
+
+https://raiolanetworks.es/blog/bootstrap/ 
+guia de columnas
+
+
+
+
+pagina formulario suscripcion
+
+radio: tipo de suscripciones
+
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <h4>Suscripción</h4>
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Básico
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Normal
+  </label>
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Premium
+  </label>
+</div>

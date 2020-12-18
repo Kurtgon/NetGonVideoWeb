@@ -1,0 +1,33 @@
+https://fontawesome.com/start
+
+Iniciar sesión
+<i class="fas fa-user-secret"></i>
+
+<i class="fas fa-user-tie"></i>
+
+Dispositivos compatibles:
+
+PC: <i class="fas fa-desktop"></i>
+Portatil: <i class="fas fa-laptop"></i>
+Tablet: <i class="fas fa-tablet-alt"></i>
+Móvil: <i class="fas fa-mobile-alt"></i>
+TV: <i class="fas fa-tv"></i>
+Consola: <i class="fas fa-gamepad"></i>
+
+Wifi: <i class="fas fa-wifi"></i>
+Media: <i class="fas fa-photo-video"></i>
+Video: <i class="far fa-file-video"></i>
+Card: <i class="fas fa-id-card"></i>
+Check: <i class="fas fa-check"></i>
+Descarga: <i class="fas fa-cloud-download-alt"></i>
+Play: <i class="fas fa-play"></i>
+
+Carrito: <i class="fas fa-cart-plus"></i>
+Paypal: <i class="fab fa-cc-paypal"></i>
+Visa: <i class="fab fa-cc-visa"></i>
+
+Robot: <i class="fas fa-robot"></i>
+Astronauta: <i class="fas fa-user-astronaut"></i>
+Usuario a secas: <i class="fas fa-user"></i>
+
+
